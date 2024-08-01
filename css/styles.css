@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+.hero-section h1, .hero-section p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #1E90FF;
+    color: white;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.navbar {
+    z-index: 999;
+    background-color: #1e90ff;
+    color: white;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    background-color: #1c86ee;
+}
+
+.container {
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.post, .comment, .chat-message {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c86ee;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.more-options {
+    cursor: pointer;
+    color: #1e90ff;
+}
+
+.options {
+    display: none;
+    margin-top: 10px;
+}
+
+.notification {
+    padding: 10px;
+    background-color: #fffae6;
+    border-left: 5px solid #ffcc00;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .comment {
+        margin-left: 0;
+    }
+}
+
+.like-count {
+    font-weight: bold;
+    color: #333;
+}
+
+.like-button {
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.btn-primary {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+.btn-primary:hover {
+    background-color: #1C86EE;
+    border-color: #1C86EE;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
